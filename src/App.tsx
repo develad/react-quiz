@@ -39,7 +39,6 @@ function App() {
   };
 
   const handleAnswerSelect = (index: number): void => {
-    console.log(index);
     setSelectedAnswer(index);
 
     const isCorrect = QUESTIONS[currentQuestion].correctAnswer === index;
